@@ -11,7 +11,7 @@ namespace Herencia
 		{
 			this._Codigo = C;
 			this._Nombre = N;
-			this.ToString = A;
+			this._Apellido = A;
 		}
 		public override string RetornarDatos()
 		{
