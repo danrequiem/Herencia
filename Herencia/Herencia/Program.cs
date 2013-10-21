@@ -6,7 +6,18 @@ namespace Herencia
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+
+
+			Persona p = new Persona ("021", "Daniel", "Garcia");
+			string persona = p.RetornarDatos ();
+			Console.WriteLine(persona);
+		
+
+			Alumno a = new Alumno("0234","Alfonso","Ramirez");
+			string alumno = a.RetornarDatos ();
+			Console.WriteLine (alumno);
+
+			
 		}
 	}
 }
